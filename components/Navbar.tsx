@@ -5,22 +5,22 @@ import { useContext, useState } from "react";
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full bg-gray-800">
-      <div className="mx-auto justify-between  px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
+    <nav className="fixed z-50 w-full border-b-8 border-[#312e2e] bg-[#b3997a] shadow-md shadow-[#000000]">
+      <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
-          <div className="flex items-center justify-between py-3 md:block md:py-5">
+          <div className="flex items-center justify-between py-2 md:block">
             <a href="#">
-              <h2 className="text-2xl font-bold text-white">NEXT JS</h2>
+              <h2 className="text-xl font-bold">HIGGONS</h2>
             </a>
             <div className="md:hidden">
               <button
-                className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400"
+                className="rounded-md p-1 text-gray-700 outline-none focus:border focus:border-gray-400"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-white"
+                    className="h-6 w-6"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -33,7 +33,7 @@ export default function Navbar() {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-white"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -57,17 +57,20 @@ export default function Navbar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-white">
+              <li className="">
                 <Link href="/">Home</Link>
               </li>
-              <li className="text-white">
-                <Link href="/blogs"> Blogs</Link>
+              <li className="">
+                <Link href="/blogs"> Biography</Link>
               </li>
-              <li className="text-white">
-                <Link href="/about"> About</Link>
+              <li className="">
+                <Link href="/about"> Timeline</Link>
               </li>
-              <li className="text-white">
-                <Link href="/contact"> Contact Us</Link>
+              <li className="">
+                <Link href="/contact">Documents</Link>
+              </li>
+              <li className="">
+                <Link href="/contact">Gallery</Link>
               </li>
             </ul>
           </div>
