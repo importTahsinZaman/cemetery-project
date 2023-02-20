@@ -33,15 +33,53 @@ export default function Home() {
         </div>
         <div className="flex min-w-[50%] max-w-[50%] items-center justify-center border-l-2 border-black bg-[#fef9f3]">
           <Image
-            className="h-[75%] w-[70%] border-2 border-black"
-            src={"/../public/rev.png"}
+            className="h-[76%] w-[70%] border-2 border-black"
+            src={"/../public/ai-enhanced.png"}
             alt={""}
             width={482}
             height={688}
           ></Image>
         </div>
       </div>
-      <div className="min-w-screen min-h-screen bg-[#E1D0B1]"></div>
+      <div className="min-w-screen min-h-screen bg-[#3C3C3C] ">
+        <div className="p-4">
+          <h1>Background</h1>
+          <p>
+            ​The Cemetery project, a centerpiece of the AP United States History
+            course at Masterman, is the pinnacle of research at Julia R.
+            Masterman. In partnership with the Woodlands Cemetery, students, in
+            groups of five or six, create a complete and comprehensive biography
+            of a prominent person in the 19th century. The Woodlands Cemetery
+            provides a lengthy list of deceased people buried in the cemetery,
+            out of which the students select their subject of research. Finding
+            and investigating primary and secondary sources was the predominant
+            portion of the project. Students visited the Woodlands Cemetery, the
+            site of their selected person’s grave, to inspect the tombstone of
+            that person and likely, his family. The Philadelphia Archives
+            offered an abundance of sources, ranging from birth records to death
+            certificates, from marriage records to deeds. Online resources such
+            as Ancestry.com contained heaps of genealogical information and
+            specific facts about a complex family history. Since records of
+            women prior to the 20th century and the suffrage movement were
+            irregularly documented at best, there were only three options for
+            this project—all of whom were men. Males had more priority than
+            females and thus yielded more information. In the preliminary years
+            of this project, an attempt was made to successfully research and
+            write a biography of a woman, but the records and documents that
+            were found were very limited in content and value, not to mention
+            the scarcity of information. Out of the three choices, Albany native
+            John Gardiner was selected for his enterprise and his relevance to
+            events of his time. He bought a brewery, turned it into a successful
+            business, and cemented his legacy in brewing history. He was also
+            the President of the Southwestern National Bank, a member of the
+            Board of Trustees of several institutions, including the Central
+            Presbyterian Church, the Franklin Institute, St. Andrew’s Society,
+            and the Commercial Exchange. Up until the time of his death, he was
+            deeply engaged in official work and worked tirelessly to improve the
+            community.
+          </p>
+        </div>
+      </div>
     </>
   );
 }
