@@ -1,11 +1,14 @@
 import Link from "next/Link";
+import { useRouter } from "next/router";
 import { useContext, useState } from "react";
 
 // Top navbar
 export default function Navbar() {
+  const router = useRouter();
+  const location = router.pathname;
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="fixed z-50 w-full border-b-2 border-black bg-[#fef9f3] ">
+    <nav className="fixed z-50 w-full border-b-2 border-black bg-[#fef9f3] text-black">
       <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
           <div className="flex items-center justify-between py-2 md:block">
@@ -57,20 +60,44 @@ export default function Navbar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="border-x-2 border-black px-4">
+              <li
+                className={
+                  location === "/" ? "border-x-2 border-black px-4" : ""
+                }
+              >
                 <Link href="/">Home</Link>
               </li>
-              <li className="">
-                <Link href="/blogs"> Biography</Link>
+              <li
+                className={
+                  location === "/biography"
+                    ? "border-x-2 border-black px-4"
+                    : ""
+                }
+              >
+                <Link href="/biography"> Biography</Link>
               </li>
-              <li className="">
-                <Link href="/about"> Timeline</Link>
+              <li
+                className={
+                  location === "/timeline" ? "border-x-2 border-black px-4" : ""
+                }
+              >
+                <Link href="/timeline"> Timeline</Link>
               </li>
-              <li className="">
-                <Link href="/contact">Documents</Link>
+              <li
+                className={
+                  location === "/documents"
+                    ? "border-x-2 border-black px-4"
+                    : ""
+                }
+              >
+                <Link href="/documents">Documents</Link>
               </li>
-              <li className="">
-                <Link href="/contact">Gallery</Link>
+              <li
+                className={
+                  location === "/gallery" ? "border-x-2 border-black px-4" : ""
+                }
+              >
+                <Link href="/gallery">Gallery</Link>
               </li>
             </ul>
           </div>
