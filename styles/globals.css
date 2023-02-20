@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap");
+
+* {
+  font-family: "Newsreader", serif;
+}

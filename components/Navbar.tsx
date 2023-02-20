@@ -5,7 +5,7 @@ import { useContext, useState } from "react";
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="fixed z-50 w-full border-b-8 border-[#312e2e] bg-[#b3997a] shadow-md shadow-[#000000]">
+    <nav className="fixed z-50 w-full border-b-2 border-black bg-[#fef9f3] ">
       <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
           <div className="flex items-center justify-between py-2 md:block">
@@ -57,7 +57,7 @@ export default function Navbar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="">
+              <li className="border-x-2 border-black px-4">
                 <Link href="/">Home</Link>
               </li>
               <li className="">
