@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="flex min-h-[97vh] grow  flex-row border-b-2 border-black bg-newspaperbg bg-contain">
+      <div className="flex min-h-[97vh] grow  flex-row border-b-2 border-t-2 border-black bg-newspaperbg bg-contain">
         <div className="flex w-[50%] min-w-[50%] max-w-[50%] items-center justify-center">
           <div className="flex flex-col items-center p-10">
             <div className="text-black">
@@ -61,7 +61,7 @@ export default function Home() {
           ></Image>
         </div>
         <div className="w-[55%] min-w-[55%] max-w-[55%] border-l-2 border-black p-5 ">
-          <h1 className="text-2xl font-bold">Introduction</h1>
+          <h1 className="text-3xl font-bold">Introduction</h1>
           <p className="text-lg">
             <br />
             The Cemetery Project is an annual historical research project
@@ -97,6 +97,36 @@ export default function Home() {
             which the subject lived, a biography, and summaries of evidence
             gathered through research. The project is submitted in late winter.
           </p>
+        </div>
+      </div>
+      <div className="min-w-screen flex flex-row border-b-2 border-black">
+        <div className="w-[55%] min-w-[55%] max-w-[55%] border-l-2 border-black p-5 ">
+          <h1 className="text-3xl font-bold">A Reverend of Many Talents</h1>
+          <p className="text-lg">
+            <br />
+            Out of three final candidates found during the excursion to the
+            Woodlands Cemetery, Reverend John Axford Higgons, D.D., was selected
+            as the subject by this group because of the established
+            denominational records associated with church ministry. The Reverend
+            was a man of many talents, working as a clerk, banker, and minister
+            in churches all over the east coast. He persevered through the death
+            of his child, the destruction of his church and home, and the
+            paralysis of his son. He attended prestigious educational
+            institutions and rose to become a sought-after guest speaker at
+            religious meetings in New York, Pennsylvania, New Jersey, and
+            Massachusetts. Yet, through it all, he maintained an unwavering
+            commitment to his faith, morals, community, and family until his
+            death in 1951.
+          </p>
+        </div>
+        <div className="w-[45%] min-w-[45%] max-w-[45%]">
+          <Image
+            className="h-[100%] w-[100%]"
+            src={"https://i.imgur.com/5Mp6kbS.jpg"}
+            alt={""}
+            width={482}
+            height={688}
+          ></Image>
         </div>
       </div>
     </>
