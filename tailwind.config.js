@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         primary_bg: "#fef9f3",
       },
+      fontFamily: {
+        AncientFont: ["AncientFont", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <div className="flex w-[50%] min-w-[50%] max-w-[50%] items-center justify-center border-l-2 border-black bg-primary_bg">
           <Image
-            className="h-[76%] w-[70%] border-2 border-black"
+            className="h-[78%] w-[70%] border-2 border-black"
             src={`https://i.imgur.com/ZFYoKmb.jpg`}
             alt={""}
             width={482}
@@ -50,17 +50,17 @@ export default function Home() {
         <p>92 pages</p>
         <p>Daily 10c</p>
       </div>
-      <div className="min-w-screen flex min-h-screen flex-row border-b-2 border-black">
-        <div className="w-[40%] min-w-[40%] max-w-[40%]">
+      <div className="min-w-screen flex flex-row border-b-2 border-black">
+        <div className="w-[45%] min-w-[45%] max-w-[45%]">
           <Image
             className="h-[100%] w-[100%]"
-            src={"https://i.imgur.com/5Mp6kbS.jpg"}
+            src={"https://i.imgur.com/J0lWgLF.jpg"}
             alt={""}
             width={482}
             height={688}
           ></Image>
         </div>
-        <div className="w-[60%] min-w-[60%] max-w-[60%] border-l-2 border-black p-5 ">
+        <div className="w-[55%] min-w-[55%] max-w-[55%] border-l-2 border-black p-5 ">
           <h1 className="text-2xl font-bold">Introduction</h1>
           <p className="text-lg">
             <br />
