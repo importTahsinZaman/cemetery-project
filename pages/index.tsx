@@ -34,7 +34,7 @@ export default function Home() {
         <div className="flex w-[50%] min-w-[50%] max-w-[50%] items-center justify-center border-l-2 border-black bg-primary_bg">
           <Image
             className="h-[76%] w-[70%] border-2 border-black"
-            src={"/../public/ai-enhanced.png"}
+            src={`https://i.imgur.com/ZFYoKmb.jpg`}
             alt={""}
             width={482}
             height={688}
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="w-[40%] min-w-[40%] max-w-[40%]">
           <Image
             className="h-[100%] w-[100%]"
-            src={"/../public/HiggonsGrave.jpg"}
+            src={"https://i.imgur.com/5Mp6kbS.jpg"}
             alt={""}
             width={482}
             height={688}
