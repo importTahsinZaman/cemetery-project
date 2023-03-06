@@ -8,13 +8,13 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="flex min-h-screen grow  flex-row border-b-2 border-black bg-newspaperbg bg-contain">
-        <div className="flex min-w-[50%] max-w-[50%] items-center justify-center">
-          <div className="flex flex-col items-center p-10 ">
+      <div className="flex min-h-[97vh] grow  flex-row border-b-2 border-black bg-newspaperbg bg-contain">
+        <div className="flex w-[50%] min-w-[50%] max-w-[50%] items-center justify-center">
+          <div className="flex flex-col items-center p-10">
             <div className="text-black">
               <h1 className="my-5 text-9xl">John A. Higgons</h1>
               <h2 className="mt-2 text-3xl">1863 - 1951</h2>
-              <p className="text-lg">
+              <p className="text-xl">
                 While the genealogy of John Axford Higgons' ancestors remains
                 relatively obscure, it is known that his family originated from
                 the British Isles. Immigration was present in both his paternal
@@ -31,7 +31,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex min-w-[50%] max-w-[50%] items-center justify-center border-l-2 border-black bg-[#fef9f3]">
+        <div className="flex w-[50%] min-w-[50%] max-w-[50%] items-center justify-center border-l-2 border-black bg-primary_bg">
           <Image
             className="h-[76%] w-[70%] border-2 border-black"
             src={"/../public/ai-enhanced.png"}
@@ -41,42 +41,61 @@ export default function Home() {
           ></Image>
         </div>
       </div>
-      <div className="min-w-screen min-h-screen bg-[#3C3C3C] ">
-        <div className="p-4">
-          <h1>Background</h1>
-          <p>
-            ​The Cemetery project, a centerpiece of the AP United States History
-            course at Masterman, is the pinnacle of research at Julia R.
-            Masterman. In partnership with the Woodlands Cemetery, students, in
-            groups of five or six, create a complete and comprehensive biography
-            of a prominent person in the 19th century. The Woodlands Cemetery
-            provides a lengthy list of deceased people buried in the cemetery,
-            out of which the students select their subject of research. Finding
-            and investigating primary and secondary sources was the predominant
-            portion of the project. Students visited the Woodlands Cemetery, the
-            site of their selected person’s grave, to inspect the tombstone of
-            that person and likely, his family. The Philadelphia Archives
-            offered an abundance of sources, ranging from birth records to death
-            certificates, from marriage records to deeds. Online resources such
-            as Ancestry.com contained heaps of genealogical information and
-            specific facts about a complex family history. Since records of
-            women prior to the 20th century and the suffrage movement were
-            irregularly documented at best, there were only three options for
-            this project—all of whom were men. Males had more priority than
-            females and thus yielded more information. In the preliminary years
-            of this project, an attempt was made to successfully research and
-            write a biography of a woman, but the records and documents that
-            were found were very limited in content and value, not to mention
-            the scarcity of information. Out of the three choices, Albany native
-            John Gardiner was selected for his enterprise and his relevance to
-            events of his time. He bought a brewery, turned it into a successful
-            business, and cemented his legacy in brewing history. He was also
-            the President of the Southwestern National Bank, a member of the
-            Board of Trustees of several institutions, including the Central
-            Presbyterian Church, the Franklin Institute, St. Andrew’s Society,
-            and the Commercial Exchange. Up until the time of his death, he was
-            deeply engaged in official work and worked tirelessly to improve the
-            community.
+      <div className="min-w-screen flex min-h-[3vh] justify-around border-b-2 border-black font-semibold">
+        <p>Vol. LXXXI</p>
+        <p>Five Parts-Part One</p>
+        <p>CC</p>
+        <p>Monday Morning, March 6 2023</p>
+        <p>KTTV (Channel 11)</p>
+        <p>92 pages</p>
+        <p>Daily 10c</p>
+      </div>
+      <div className="min-w-screen flex min-h-screen flex-row border-b-2 border-black">
+        <div className="w-[40%] min-w-[40%] max-w-[40%]">
+          <Image
+            className="h-[100%] w-[100%]"
+            src={"/../public/HiggonsGrave.jpg"}
+            alt={""}
+            width={482}
+            height={688}
+          ></Image>
+        </div>
+        <div className="w-[60%] min-w-[60%] max-w-[60%] border-l-2 border-black p-5 ">
+          <h1 className="text-2xl font-bold">Introduction</h1>
+          <p className="text-lg">
+            <br />
+            The Cemetery Project is an annual historical research project
+            conducted by 11th-grade A.P. United States History (APUSH) students
+            at Julia R. Masterman High School. The project aims to reinforce
+            students’ historical and critical thinking skills, academic writing
+            abilities, capacity for contextualization, and ambition for
+            investigation. It is a several-month-long endeavor that sees groups
+            of students working to structure and present their findings through
+            multiple mediums.
+            <br />
+            <br />
+            The project begins at the Woodlands Cemetery in West Philadelphia,
+            one of the city’s many historic sites and the final resting place
+            for celebrated surgeons, high-ranking military officials, and
+            university founders. In early fall, all APUSH students participate
+            in an excursion to the location where they, in their respective
+            groups, navigate through the tens of thousands of graves and select
+            a few top candidates for their project. While only certain deceased
+            may be researched given time period restrictions and other
+            specifications, there are still thousands buried for students to
+            choose from whose stories have yet to be researched. After narrowing
+            down their selections to a singular candidate, groups are given the
+            go-ahead to begin an in-depth investigation on their subject.
+            <br />
+            <br />
+            Tasked with finding dozens of primary and secondary sources to
+            connect the pieces of their subject’s life, students searched
+            through archives, virtual repositories, libraries, and the general
+            internet to acquire information on their subject and relevant
+            context. All research is eventually compiled into a formal paper and
+            a website, both detailing the context of the time period through
+            which the subject lived, a biography, and summaries of evidence
+            gathered through research. The project is submitted in late winter.
           </p>
         </div>
       </div>

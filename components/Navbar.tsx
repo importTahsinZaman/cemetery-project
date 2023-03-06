@@ -8,11 +8,11 @@ export default function Navbar() {
   const location = router.pathname;
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="fixed z-50 w-full border-b-2 border-black bg-[#fef9f3] text-black">
+    <nav className="fixed z-50 w-full border-b-2 border-black bg-primary_bg text-black">
       <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
           <div className="flex items-center justify-between py-2 md:block">
-            <a href="#">
+            <a href="/">
               <h2 className="text-xl font-bold">HIGGONS</h2>
             </a>
             <div className="md:hidden">

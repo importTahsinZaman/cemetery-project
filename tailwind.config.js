@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: {
         newspaperbg: "url('../public/newspaperbg.png')",
       },
+      colors: {
+        primary_bg: "#fef9f3",
+      },
     },
   },
   plugins: [],
