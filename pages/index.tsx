@@ -61,7 +61,7 @@ export default function Home() {
           ></Image>
         </div>
         <div className="w-[55%] min-w-[55%] max-w-[55%] border-l-2 border-black p-5 ">
-          <h1 className="text-3xl font-bold">Introduction</h1>
+          <h1 className="text-3xl font-bold">The Cemetery Project</h1>
           <p className="text-lg">
             <br />
             The Cemetery Project is an annual historical research project
@@ -100,29 +100,67 @@ export default function Home() {
         </div>
       </div>
       <div className="min-w-screen flex flex-row border-b-2 border-black">
-        <div className="w-[55%] min-w-[55%] max-w-[55%] border-l-2 border-black p-5 ">
-          <h1 className="text-3xl font-bold">A Reverend of Many Talents</h1>
-          <p className="text-lg">
+        <div className="w-[55%] min-w-[55%] max-w-[55%] border-l-2 border-black ">
+          <div className="border-b-2 border-black p-5">
+            <h1 className="text-3xl font-bold">A Reverend of Many Talents</h1>
+            <p className="text-lg">
+              <br />
+              Out of three final candidates found during the excursion to the
+              Woodlands Cemetery, Reverend John Axford Higgons, D.D., was
+              selected as the subject by this group because of the established
+              denominational records associated with church ministry. The
+              Reverend was a man of many talents, working as a clerk, banker,
+              and minister in churches all over the east coast. He persevered
+              through the death of his child, the destruction of his church and
+              home, and the paralysis of his son. He attended prestigious
+              educational institutions and rose to become a sought-after guest
+              speaker at religious meetings in New York, Pennsylvania, New
+              Jersey, and Massachusetts. Yet, through it all, he maintained an
+              unwavering commitment to his faith, morals, community, and family
+              until his death in 1951.
+            </p>
+          </div>
+          <div className="border-b-2 border-black p-5">
+            {" "}
+            <h1 className="text-3xl font-bold">Table of Contents</h1>
             <br />
-            Out of three final candidates found during the excursion to the
-            Woodlands Cemetery, Reverend John Axford Higgons, D.D., was selected
-            as the subject by this group because of the established
-            denominational records associated with church ministry. The Reverend
-            was a man of many talents, working as a clerk, banker, and minister
-            in churches all over the east coast. He persevered through the death
-            of his child, the destruction of his church and home, and the
-            paralysis of his son. He attended prestigious educational
-            institutions and rose to become a sought-after guest speaker at
-            religious meetings in New York, Pennsylvania, New Jersey, and
-            Massachusetts. Yet, through it all, he maintained an unwavering
-            commitment to his faith, morals, community, and family until his
-            death in 1951.
-          </p>
+            <ul className="text-lg">
+              <li>
+                <Link className="" href="/blogs">
+                  1. Biography - Read an extensive biography on Higgons's life
+                </Link>
+              </li>
+              <li>
+                <Link className="" href="/blogs">
+                  2. Timeline - View the major events that affected Higgons in
+                  chronological order
+                </Link>
+              </li>
+              <li>
+                <Link className="" href="/blogs">
+                  3. Documents - Read the documents used to craft Higgons's
+                  story
+                </Link>
+              </li>
+              <li>
+                <Link className="" href="/blogs">
+                  4. Gallery - View snapshots of the process of putting together
+                  the pieces of Higgons's life
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="border-b-2 border-black p-5">
+            <p>
+              The Group: Larry Huang, Aakash Jha, Tino Karakousis, Justin Liu,
+              Aryan Patel, Tahsin Zaman
+            </p>
+          </div>
         </div>
-        <div className="w-[45%] min-w-[45%] max-w-[45%]">
+        <div className="w-[45%] min-w-[45%] max-w-[45%] border-l-2 border-r-2 border-black">
           <Image
             className="h-[100%] w-[100%]"
-            src={"https://i.imgur.com/5Mp6kbS.jpg"}
+            src={"https://i.imgur.com/7CATZZX.jpg"}
             alt={""}
             width={482}
             height={688}
