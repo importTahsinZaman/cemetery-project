@@ -25,7 +25,7 @@ export default function Home() {
                 commonly linked to Ireland or the areas affected by the Norman
                 Conquest...
               </p>
-              <Link className="underline" href="/blogs">
+              <Link className="underline" href="/biography">
                 Read Biography
               </Link>
             </div>
@@ -126,24 +126,24 @@ export default function Home() {
             <br />
             <ul className="text-lg">
               <li>
-                <Link className="" href="/blogs">
+                <Link className="" href="/biography">
                   1. Biography - Read an extensive biography on Higgons's life
                 </Link>
               </li>
               <li>
-                <Link className="" href="/blogs">
+                <Link className="" href="/timeline">
                   2. Timeline - View the major events that affected Higgons in
                   chronological order
                 </Link>
               </li>
               <li>
-                <Link className="" href="/blogs">
+                <Link className="" href="/documents">
                   3. Documents - Read the documents used to craft Higgons's
                   story
                 </Link>
               </li>
               <li>
-                <Link className="" href="/blogs">
+                <Link className="" href="/gallery">
                   4. Gallery - View snapshots of the process of putting together
                   the pieces of Higgons's life
                 </Link>
