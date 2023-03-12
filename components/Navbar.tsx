@@ -74,7 +74,7 @@ export default function Navbar() {
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li
                 className={
-                  location === "/" ? "border-x-2 border-black px-4" : ""
+                  location === "/" ? "border-x-2 border-white px-4" : ""
                 }
               >
                 <Link href="/">Home</Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
               <li
                 className={
                   location === "/biography"
-                    ? "border-x-2 border-black px-4"
+                    ? "border-x-2 border-white px-4"
                     : ""
                 }
               >
@@ -90,7 +90,7 @@ export default function Navbar() {
               </li>
               <li
                 className={
-                  location === "/timeline" ? "border-x-2 border-black px-4" : ""
+                  location === "/timeline" ? "border-x-2 border-white px-4" : ""
                 }
               >
                 <Link href="/timeline"> Timeline</Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
               <li
                 className={
                   location === "/documents"
-                    ? "border-x-2 border-black px-4"
+                    ? "border-x-2 border-white px-4"
                     : ""
                 }
               >
@@ -106,7 +106,7 @@ export default function Navbar() {
               </li>
               <li
                 className={
-                  location === "/gallery" ? "border-x-2 border-black px-4" : ""
+                  location === "/gallery" ? "border-x-2 border-white px-4" : ""
                 }
               >
                 <Link href="/gallery">Gallery</Link>
@@ -116,74 +116,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-
-    // <nav className="fixed z-50 w-full border-b-2 border-black bg-primary_bg text-black">
-    //   <div className="mx-auto flex-col justify-between md:flex md:items-center">
-    //     <div className=" w-full items-center justify-between text-center">
-    //       <div className="flex w-full flex-row items-center justify-between">
-    //         <p>Vol. 218 - N.48</p>
-    //         <a href="/">
-    //           <h1 className="font-AncientFont text-7xl">THE APUSH TIMES</h1>
-    //         </a>
-    //         <p> Price: $0.99</p>
-    //       </div>
-
-    //       <div className="flex w-full">
-    //         <hr className="grow border-black bg-black"></hr>
-    //         <h2 className="text-xl">Philadelphia, {date.toDateString()}</h2>
-    //         <hr className="grow border-black bg-black"></hr>
-    //       </div>
-    //     </div>
-    //     <div>
-    //       <div
-    //         className={`mt-8 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
-    //           navbar ? "block" : "hidden"
-    //         }`}
-    //       >
-    //         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-    //           <li
-    //             className={
-    //               location === "/" ? "border-x-2 border-black px-4" : ""
-    //             }
-    //           >
-    //             <Link href="/">Home</Link>
-    //           </li>
-    //           <li
-    //             className={
-    //               location === "/biography"
-    //                 ? "border-x-2 border-black px-4"
-    //                 : ""
-    //             }
-    //           >
-    //             <Link href="/biography"> Biography</Link>
-    //           </li>
-    //           <li
-    //             className={
-    //               location === "/timeline" ? "border-x-2 border-black px-4" : ""
-    //             }
-    //           >
-    //             <Link href="/timeline"> Timeline</Link>
-    //           </li>
-    //           <li
-    //             className={
-    //               location === "/documents"
-    //                 ? "border-x-2 border-black px-4"
-    //                 : ""
-    //             }
-    //           >
-    //             <Link href="/documents">Documents</Link>
-    //           </li>
-    //           <li
-    //             className={
-    //               location === "/gallery" ? "border-x-2 border-black px-4" : ""
-    //             }
-    //           >
-    //             <Link href="/gallery">Gallery</Link>
-    //           </li>
-    //         </ul>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 }
