@@ -167,9 +167,130 @@ export const docJson = [
       "This book, titled The Burning of Chelsea, describes a catastrophic fire that occurred in Chelsea, Massachusetts in 1908. According to the book, the fire burned 492 acres and destroyed practically all the businesses in the center of the city, as well as municipal buildings and other buildings, leaving many people homeless. John Axford Higgons lived in Chelsea at the time of the fire.<br/><br/>It was inferred from this document that Higgons was one of the 17,450 people left homeless after the fire, as his address listed in the city directory at the time was located very close to the center of the city. In addition, it was stated that Higgons’ church was also burnt down by the fire, as it was also in close proximity to the center of Chelsea. In the book, it states that several churches in the city opened their doors to the recently displaced people, so it is assumed that John Axford Higgons took up residence in one of the churches while he continued his work in Chelsea.",
   },
   {
+    img: "https://lh4.googleusercontent.com/_DHdOQ8FABsIegK5G_dBj7BYji7Dhf03lwguGVZX6hUVWIHz_zuFJJL0YxIVAUkRXYZ04npPp5iY56ex3i9GPDW4K9APWuqObVVwi3K16kHSEeXLhONOtPZ-9tDxHmTwdZzTax6VbrNJQQmF9crhw-Q",
+    caption: "Excerpt from the Presbyterian Banner Dec 6, 1909",
+    citation:
+      "Presbyterian Banner. Google Books. Vol. 96. Presbyterian Banner Publishing Company, 1909. https://www.google.com/books/edition/Presbyterian_Banner/W4dRAAAAYAAJ?hl=en&gbpv=1&dq=John+Axford+Higgins+D.D.+ninth+presbyterian+church&pg=RA2-PA862&printsec=frontcover.",
+    analysis:
+      "This document is an excerpt from the Presbyterian Banner. This specific excerpt was produced on December 6, 1909. Within the excerpt, it shows numerous reverends being called to other cities. In the highlighted portion, it shows that John Axford Higgons has been called to the Ninth Church of Philadelphia.<br/><br/>It can be inferred that John Axford Higgons was a very good preacher and was in high demand to become a pastor at other churches. This document also provides a specific date for when Higgons ended up moving to Philadelphia, and it states which church in Philadelphia Higgons was called to. It can be inferred that Higgons accepted the call to Philadelphia, as he no longer had a church or home in Chelsea, and would begin preaching in Philadelphia in 1910.",
+  },
+  {
+    img: "https://lh6.googleusercontent.com/4Cm9LXkJ_C2yaONUtwdRDPc9fM_RqxdII0Z-xLZYr5nhpGbP-B0HNMxzWi-6xsTRCPWbrCs-wFBGLf5-Xjb6xJdpo11vZ3pExouOkLd61IMgVNyvGnXs-wfu5bcrbg5TYOp2FMDd_FTEcMYxSngUIDE",
+    caption: "The New York Observer, Jan 6, 1910",
+    citation:
+      "New-York Observer. Google Books. 88th ed. Morse, Hallock & Company, 1910. https://www.google.com/books/edition/New_York_Observer/6bhLAAAAYAAJ?hl=en&gbpv=0.",
+    analysis:
+      "This document is a page from The New York Observer and covers Presbyterianism in Philadelphia. This issue was produced on January 6, 1910. The highlighted portion details John Axford Higgons and his involvement with Presbyterianism in Philadelphia. It is stated that he has accepted a call in the Ninth Church.<br/><br/>This document was used to confirm that John Axford Higgons accepted the call to the Ninth Church of Philadelphia, and that he began preaching there in 1910. It can also be reasonably inferred that his family moved to Philadelphia with him, as is shown in later censuses.",
+  },
+  {
+    img: "https://i.imgur.com/MDqixrZ.png",
+    caption: "City Directories from Massachusetts, 1904 and 1910",
+    citation:
+      "City of Chelsea “Chelsea, Massachusetts, City Directory, 1904.” www.ancestry.com, 1904. https://www.ancestry.com/discoveryui-content/view/453169241:2469?tid=&pid=&queryId=6a501886122b15a1526bbe9eab3a77a2&_phsrc=tlh14&_phstart=successSource. <br/> City of Chelsea “Chelsea, Massachusetts, City Directory, 1910.” www.ancestry.com, 1910. https://www.ancestry.com/discoveryui-content/view/481317580:2469?tid=&pid=&queryId=6a501886122b15a1526bbe9eab3a77a2&_phsrc=tlh15&_phstart=successSource.",
+    analysis:
+      "These pages are from the Chelsea, Massachusetts city directories. The page on the left dates back to 1904, when he first began preaching at the Central Congregational Church in Chelsea, Massachusetts. The page on the right is from 1910, where it states that Higgons moved to Philadelphia.<br/><br/>These pages are used to prove that Higgons lived in Chelsea from 1904 to 1910, and it is used to provide his address in Chelsea.",
+  },
+  {
+    img: "https://i.imgur.com/oAqXzIl.png",
+    caption: "History of Newark 1913",
+    citation:
+      "City of Newark. A History of the City of Newark, New Jersey: Embracing Practically Two and a Half Centuries, 1666-1913. Google Books. Lewis Historical Publishing Company, 1913. https://www.google.com/books/edition/A_History_of_the_City_of_Newark_New_Jers/wY4ujNWYlcsC?hl=en&gbpv=1&dq=Rev.+John+Axford+Higgons&pg=PA964&printsec=frontcover.",
+    analysis:
+      "This document is an excerpt from the book “A History of the City Newark, New Jersey,” Volume 2. The book gives an overview of the history of Newark and includes a section regarding the Central Presbyterian Church on Clinton and Belmont Avenues. The document gives a list of pastors that have been at the church since its inception, including John Axford Higgons. John Axford Higgons was there from May 17, 1898, to December 7, 1903.<br/><br/>From this document, it can be inferred that the church had one pastor between May 17th, 1989, and February 6th, 1902, as no other pastor was there. It can be inferred that during this time period, a substantial amount of Higgons’s work at the church, Higgons had an important role in the church community. This document also has Higgons’s occupation in Newark, agreeing with the 1900 census that has him residing there. It confirms that Higgons resided in Newark from 1898 to 1903, and also lines up with the fact that he was an evangelist from 1902 to 1904, considering another pastor began preaching starting February 6, 1902.",
+  },
+  {
+    img: "https://lh3.googleusercontent.com/-DvRfQE2yk9ZfBheGvvbzjyyh6VwYq3GGuqlVl5FfRpx1SR4u70vR6814KYgTHx1Ex4i4gehJbUT3IhEkntutRrP06PC2EcV-lz3r_9bOW_zIjGx14-vIoALxPDB03fXq9XyWCfgyU8Y5IttFQdVGts",
+    caption: "Willard genealogy, sequel to Willard memoir 1915",
+    citation:
+      "Willard, Joseph, Charles Wilkes Walker, Charles Henry Pope, and Harold B. Lee Library. Willard Genealogy, Sequel to Willard Memoir. Internet Archive. Boston, Mass. : Printed for the Willard Family Association, 1915. https://archive.org/details/willardgenealogy00will/.",
+    analysis:
+      "This document is the complete family line of the Willard Family, tracing back to the first Willards to arrive from England. Oliver H. Willard and his daughter Ella Elmina Willard can be found in this source and their fathers all the way back to the original Willards who came to America. It lists their date of birth, death, and sometimes their area of residence. John Axford Higgons is also listed in this book as the spouse of Ella Willard.<br/><br/>From this document, it can be inferred that the Willard family has a long history in the United States and is respected because of that. It also provides many birth dates of many of Higgons’s family members, including his in-laws, as well as his children.",
+  },
+  {
+    img: "https://i.imgur.com/O5NT18s.png",
+    img2: "https://lh4.googleusercontent.com/warPxcYcixiwCvJHTYFxc-020Q9JlIqIQ9NNWHgD0z84SOhgV50wt_l2WIep8xZ3lHjwnfG9rpsNHDN1zsvhAg21xUAMSmL_xZwFI6Ce-d4BvTfo3S9FY_y7Rt7VYkOfUDo1UxygGsecht3euU8kkjI",
+    caption: "Leroy Higgins World War 1 Draft Card, June 5 1917",
+    citation:
+      "U.S. Military “WW1 Registration Card: Leroy Willard Higgons.” www.ancestry.com, January 5, 1917. https://www.ancestry.com/discoveryui-content/view/10543202:6482?tid=&pid=&queryId=3ecfb28d07a17f528cebcdd85c3124a2&_phsrc=klS187&_phstart=successSource.",
+    analysis:
+      "This is the draft card of Leroy Willard Higgons, It states that Leroy Willard Higgons is a 20-year-old White man, with brown hair, brown eyes, medium build, and medium height. The card also states he is a natural-born citizen, living in Philadelphia at the address 842 S. 57th Philadelphia, PA. Leroy is stated to be completely disabled in the way of being a paralytic. <br/><br/>From this document, it can be inferred that Leroy is not eligible to be drafted for fighting in World War One and the cause of this is due to his disability. It is also inferred that this is the reason why Leroy stayed with his parents for most of his life.",
+  },
+  {
+    img: "https://lh3.googleusercontent.com/2bv1uQcOV5iyFvYOvVuBSeZLvZu1zUsim7dVeAkcXPTbyrQ_75bmZLML1JpLXBekO21Kc8SezHOeBP83OhvYvwlVrDSaUWMCDOPkSqQi0b59_NwEwDzu0CoWEZTronPmIZ0kNBr-QMPf8dwUHbK9egk",
+    caption: "The Evening Ledger Philadelphia June 18, 1917)",
+    citation:
+      "Evening public ledger. “Church Receives 70 New Members.” Chroniclingamerica.loc.gov, June 18, 1917. https://chroniclingamerica.loc.gov/lccn/sn83045211/1917-06-18/ed-1/seq-3/#date1=1870&index=0&rows=20&words=Axford+HIggons+John&searchType=basic&sequence=0&state=&date2=1951&proxtext=John+Axford+Higgons&y=0&x=0&dateFilterType=yearRange&page=1.",
+    analysis:
+      "This document is part of The Evening Ledger (Philadelphia) which is a daily newspaper. This publication is dated for June 18th, 1917 and the subsection is titled, “Church Receives 70 New Members”. According to the document, John Axford Higgons made an announcement that the Ninth Presbyterian Church had recently admitted 70 new people, and in the last five years the church had acquired 700 new members. <br/><br/>Higgons was confirmed to be the pastor of the Ninth Presbyterian Church, located on 57th Street and Washington avenue. It can be inferred that Higgons, who was the pastor at the Ninth Presbyterian Church starting in 1910, was responsible for the admittance of the 700 new members. It can be inferred that Higgons was an eloquent speaker, if just with his words he was able to earn the church 700 new members. In addition, it is known that Higgons lived close to the church, at 842 South 57th Street.",
+  },
+  {
+    img: "https://i.imgur.com/elZXmDG.png",
+    img2: "https://lh6.googleusercontent.com/eLQv0X7ohTtAJippYx2ztV3LN0jxFS7Gv8AKantz_yltAG3rWydVMHX7uVdi5g9Eoxw8Fwqt3VuJq7E8Xn2ZBXrjWq6x1Ryiq2EZC22y7IYZ5Ad01zNyBxDchcecqJxBsKKgkyxYrhZbWFWiWI3P7VU",
+    caption: "John Axford Higgon Jr.’s World War I Registration Card)",
+    citation:
+      "U.S. Military. “WW1 Registration Card: John Axford Higgons Jr.” www.ancestry.com, September 12, 1918. https://www.ancestry.com/discoveryui-content/view/10543200:6482?tid=&pid=&queryId=ab50c6a5e1d0b8122acc29c4d09ef18a&_phsrc=tlh5&_phstart=successSource.",
+    analysis:
+      "This is the draft card of John Axford Higgons Jr. It states that John Axford Higgons is a 20-year-old White man, with brown hair, brown eyes, a medium build, and tall stature. The card also states he is a natural-born citizen, living in Philadelphia at the address 842 S. 57th Philadelphia, PA, and also being a student at an army college. The date was registered on September 12, 1918. <br/><br/>From this, it can be inferred that John Axford Higgons was healthy enough to serve in the war, and was also pursuing an education at an army college. It also can be inferred that he still lived with his parents at this time. Considering Higgons was a highly eligible applicant for the army, as he was a young 20 years old and physically capable, it is likely that he was drafted to serve in World War I. Finally, it can be inferred that Higgons Jr. was very close to his mother as he listed her as the nearest relative.",
+  },
+  {
+    img: "https://lh5.googleusercontent.com/HJFsyOgnlLUtyX6dabGkzU8ndmvLgf0nff9psMHd-5x_uM6I_-mTNqN-36ENG27kNLdmKHRDy4B7UMMeByn-FROVJvOguTa4d468-ty7uWlNfFZm04Y9E4a5j9VGs2FpdP5DWt_YfOg4pleaJJ3CMKs",
+    caption: "Narberth, PA, March 22nd, 1919",
+    citation:
+      "Narberth Civic Association, and Michael Alexander. Our Town, Narberth, PA (March 22, 1919). Internet Archive, 1919. https://archive.org/details/OurTownNarberthPA19190322.",
+    analysis:
+      "This document is an excerpt from the news. The highlighted part states that John Axford Higgons and his wife Ella Willard Higgons (listed here as Mrs. John Axford Higgons) were invited by Mr. and Mrs. J Earle Clarke for some sort of gathering. <br/><br/>This document was used to corroborate the fact that Mrs. John Axford Higgons was indeed Ella Willard Higgons. In addition, it showed that Higgons was often invited to parishioners’ homes. This allows the inference that he was a very likable and influential person.",
+  },
+  {
+    img: "https://lh3.googleusercontent.com/kmrwuBhQ1fIWklV_MZcqJRtnNS0rNeplkOlqW1tXHVezOBO9TQY0gcj_hw1CxcaUHZEv_MTRPBrXjQ47vdtdHm2Lf6sBJQTLmrZqWD3Fm1ZLM92PYoccWH5rNaG5uxgwOIBouc9c-d22OJkUbu2Xbs0",
+    img2: "https://lh6.googleusercontent.com/pkJDwR-USDUwv1UVmKyQ2MQbZY3JXWWpNSO6caUtylQbVHSKSq9i0UCJSX6B2QHZlTfRGhvbxRgHbp8wvOniaTtcy8mxYJwBYCbcPMHJEfDFC9VtBj1k6h1m0E137IqHq1ZIGIUrfFzLWUB8tukK5xI",
+    caption: "1920 Federal Census",
+    citation:
+      "Federal Census Bureau “1920 United States Federal Census.” www.ancestry.com, 1920. https://www.ancestry.com/discoveryui-content/view/42713853:6061.",
+    analysis:
+      "This document is the 1920 federal census record. It shows his address on Montgomery Avenue in Lower Merion, and that he owned his house. It also gives information on the members of his household: himself, his wife, two sons, his daughter, his sister-in-law, and two servants. Everybody in his household was literate. This document also shows that he worked in the banking business (and was the owner of one) while his daughter was a teacher at an art school. <br/><br/>From this document, it can be inferred that one of his sons, John Axford Higgons II, had already moved out. His oldest son, Leroy Higgons, remained unemployed at age 27 whilst living with his parents. John Higgons’s sister-in-law, Leah Willard, also lived with him and remained unemployed. It seems as though John A. Higgons had made a large wealth, either from his involvement in the banking business or his post as a minister, as he was able to afford to completely own his house.",
+  },
+  {
+    img: "https://lh3.googleusercontent.com/8nY_PJXh53U7uwqfcPW5TssUyt1vrYW9c17ubz0cHyOjFjPb2jNHYw_6PHh-cP-JXpq_VjL4saZ2o_fw5sPe4bekzgBFGA3ZJJMLrEd5wRlAkJbg8tpnACmr_hxhaCr7QxR__V1kag9Flh7BtOGeaxA",
+    caption: "Excerpt from the Interior Volume 53, 1922",
+    citation:
+      "The Interior. Google Books. Vol. 53. Western Presbyterian Publishing Company, 1922. https://www.google.com/books/edition/The_Interior/e3ZPAAAAYAAJ?hl=en&gbpv=0.",
+    analysis:
+      "This is an article written by rev. John Axford Higgons’s son. According to the description under the title, the son was crippled and a “shutin”, meaning that he didn’t leave the house. He wrote this article with one finger and it “speaks from experience.” The events that this article discusses likely occurred in the son’s own life.<br/><br/>It can be inferred that the son that is being mentioned is Leroy Higgons. According to census data, out of John Axford Higgons’s five children, Leroy Higgons never moved out, agreeing with the term “shutin”. It can also be inferred that Leroy was paralyzed from a very young age as this passage was based on experience and Leroy mentions paralysis and also discusses an active young boy, which he used to be. The presence of bible verses indicates that Leroy was religious. ",
+  },
+  {
+    img: "https://lh5.googleusercontent.com/1sMvPrVOVLa2dd1RVsCncMWNhTU4Nt5yJHuzBRLJWZRmfQvreBAlZ-SE_QG9IOoXci9yzxHgC7SdSzmLbcpxaUZzlxorDNjbmxkleWzOZb3x2NzNXg1I6DCnv6Ps9Vo944qsRRfKZVnDyWA0_6i--sE",
+    caption: "The Practical Druggist Volume 42, page 55, 1924",
+    citation:
+      "Lillard, Benjamin. Practical Druggist and Pharmaceutical Review of Reviews. Google Books. Vol. 42. Lillard & Company, 1924. https://www.google.com/books/edition/Practical_Druggist_and_Pharmaceutical_Re/idDmAAAAMAAJ?hl=en&gbpv=0.",
+    analysis:
+      "The forty-second volume of The Practical Druggist, published in 1924, mentioned that Higgons attended the one hundred and first annual commencement of the Philadelphia College of Pharmacy and Science and offered prayer for the graduating class and William C. Sprout provided the address to the graduating class.<br/><br/>This document was used to track Higgons’s activity in Philadelphia throughout his time in the city. In 1924, Higgons was nearing the end of his career as a pastor, yet he was still a fairly well-renowned preacher in the area, considering he was requested to provide a sermon for the graduating class at the Philadelphia College of Pharmacy and Science. ",
+  },
+  {
+    img: "https://lh6.googleusercontent.com/Rj7w15Eev0FLKIqDBjsKHoK-uMXHrROi1UsioWjWFrSrQOn-nbhTiH82NfgyFYObme6CL9I8P5K_dsJI5pnFBBWR3LwuBZyCPvPSzsT1dWSZZyf-WSJa7Xef0xr-EZnR2Ib3xHqYxYPDEyo1AacJTjI",
+    caption:
+      "Lineage Book of the National Society of Daughters of Founders and Patriots of America, page 114, 1932",
+    citation:
+      "National Society of Daughters of Founders and Patriots of America. Lineage Book of the National Society of Daughters of Founders and Patriots of America. Google Books. Daughters of Founders and Patriots of America, 1932. https://www.google.com/books/edition/Lineage_Book_of_the_National_Society_of/dAsiAQAAMAAJ?hl=en&gbpv=0&bsq=gladys%20louise%20higgons.",
+    analysis:
+      "This document is an excerpt from the Lineage Book of the National Society of Daughters and Founders and Patriots of America, in which it lists Gladys Louise Higgons as Mrs. Robert J. Snyder, and provides her address: 1430 Markley Street, Norristown, PA.<br/><br/>From this document, it was gathered that Gladys Louise Higgons was married to Robert J. Snyder, as it was common for wives to be referred to as Mrs. and then their husband’s name. It was also used to provide the address of Gladys Louise Higgons in 1932, as she was not listed as a resident of John Axford Higgons’s household at the time. ",
+  },
+  {
+    img: "https://lh4.googleusercontent.com/LaREVynr7fYTeUL_8L3bc5rpG7Cq1ked-lFXbMSJbym43Dagyf8-8ZcWlxRkdoYG_og2-91v-noKsDiN4ClvpHtL0iXzRzEzuNlYnFlSp-1dJMt1aqtN78zSxZXUAxnzwCoX1IpVppu3ULxvm39XK0I",
+    caption: "Ocean City, New Jersey, City Directory, 1937",
+    citation:
+      "Ocean City, NJ. “Ocean City, New Jersey, City Directory, 1937.” www.ancestry.com, 1937. https://www.ancestry.com/discoveryui-content/view/588709045:2469?tid=&pid=&queryId=361280a45f04d1d62e1926c6e6a3032a&_phsrc=klS204&_phstart=successSource.",
+    analysis:
+      "In the 1937 city directory for Ocean City, New Jersey, it is written that John Axford Higgons and Ella Willard Higgons owned a house in New Jersey: house 59 Asbury Avenue. It also lists LeRoy Higgons, John Axford Higgons’s son, who was also a resident of the house.<br/><br/>It is assumed that this address is the address of the Higgons’s summer home or vacation, because at the time they also had a house in Lower Merion. Because Higgons supposedly owned two houses at the time, it can be inferred that Higgons was fairly well-off.",
+  },
+  {
     img: "",
     caption: "",
-    transcription: "",
+    citation: "",
+    analysis: "",
+  },
+  {
+    img: "",
+    caption: "",
     citation: "",
     analysis: "",
   },

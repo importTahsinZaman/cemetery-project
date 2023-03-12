@@ -142,7 +142,9 @@ export default function documents() {
                     )}
                     <br />
                     <h2 className="font-bold">Citation:</h2>
-                    <h2>{content.citation}</h2>
+                    <h2
+                      dangerouslySetInnerHTML={generateHTML(content.citation)}
+                    ></h2>
                     <br />
                     <h1 className="font-bold">Analysis:</h1>
                     <h1
