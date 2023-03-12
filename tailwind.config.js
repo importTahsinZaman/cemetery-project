@@ -14,7 +14,7 @@ module.exports = {
         newspaperbg: "url('../public/newspaperbg.png')",
       },
       colors: {
-        primary_bg: "#fef9f3",
+        primary_bg: "#f4f3ea",
       },
       fontFamily: {
         AncientFont: ["AncientFont", "sans-serif"],

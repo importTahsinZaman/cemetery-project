@@ -1,4 +1,11 @@
 @tailwind base;
+
+@layer base {
+  html {
+    @apply text-[#162d1c];
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -6,7 +13,7 @@
 
 @font-face {
   font-family: "AncientFont";
-  src: url("../public/AncientFont.ttf");
+  src: url("../public/Ancient2.otf");
 }
 
 * {
@@ -14,5 +21,5 @@
 }
 
 body {
-  background-color: #fef9f3;
+  background-color: #f4f3ea;
 }
