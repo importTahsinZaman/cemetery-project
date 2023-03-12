@@ -144,7 +144,7 @@ export default function Home() {
               </li>
               <li>
                 <Link className="" href="/gallery">
-                  4. Gallery - View snapshots of the process of putting together
+                  4. Gallery - View snapshots of the journey of putting together
                   the pieces of Higgons's life
                 </Link>
               </li>
