@@ -5,20 +5,20 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { docJson } from "./docJson";
 
 export default function documents() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(docJson.length - 2);
 
   const handleNextSlide = () => {
-    let newSlide = currentSlide === documents.length - 1 ? 0 : currentSlide + 1;
+    let newSlide = currentSlide === docJson.length - 1 ? 0 : currentSlide + 1;
     setCurrentSlide(newSlide);
   };
 
   const handlePrevSlide = () => {
-    let newSlide = currentSlide === 0 ? documents.length - 1 : currentSlide - 1;
+    let newSlide = currentSlide === 0 ? docJson.length - 1 : currentSlide - 1;
     setCurrentSlide(newSlide);
   };
 
-  function createAnalysis(analysis: string) {
-    return { __html: analysis };
+  function generateHTML(text: string) {
+    return { __html: text };
   }
 
   function numberToEncodedLetter(number: number): string {
@@ -84,10 +84,6 @@ export default function documents() {
     }
   }
 
-  console.log(docJson);
-
-  console.log(numberToEncodedLetter(27));
-
   return (
     <div className="relative mt-5 flex h-full min-h-screen w-full flex-col items-center justify-center">
       <h1 className="mx-3 w-[80%] border-2 border-black p-2 text-center text-4xl font-semibold">
@@ -97,7 +93,7 @@ export default function documents() {
         onClick={handlePrevSlide}
         className="absolute inset-y-1/2 left-0 z-20 m-auto cursor-pointer text-5xl text-gray-400"
       />
-      <div className="relative m-auto flex h-[50vh] min-h-screen w-full overflow-hidden">
+      <div className="relative m-auto flex min-h-screen w-full">
         <Swipe
           onSwipeLeft={handleNextSlide}
           onSwipeRight={handlePrevSlide}
@@ -118,21 +114,39 @@ export default function documents() {
                     key={content.id}
                     src={content.img}
                     alt={content.caption}
-                    width={300}
-                    height={300}
+                    width={3000}
+                    height={3000}
                   ></Image>
+                  {content.img2 && (
+                    <Image
+                      className="w-[50%]"
+                      key={content.id + 1}
+                      src={content.img2}
+                      alt={""}
+                      width={3000}
+                      height={3000}
+                    ></Image>
+                  )}
                   <h2>({content.caption})</h2>
                   <br />
                   <div className="w-[80%]">
-                    <h2 className="font-bold">Transcription:</h2>
-                    <h2>{content.transcription}</h2>
+                    {content.transcription && (
+                      <h2 className="font-bold">Transcription:</h2>
+                    )}
+                    {content.transcription && (
+                      <h2
+                        dangerouslySetInnerHTML={generateHTML(
+                          content.transcription
+                        )}
+                      ></h2>
+                    )}
                     <br />
                     <h2 className="font-bold">Citation:</h2>
                     <h2>{content.citation}</h2>
                     <br />
                     <h1 className="font-bold">Analysis:</h1>
                     <h1
-                      dangerouslySetInnerHTML={createAnalysis(content.analysis)}
+                      dangerouslySetInnerHTML={generateHTML(content.analysis)}
                     ></h1>
                   </div>
                 </div>
@@ -146,7 +160,7 @@ export default function documents() {
         className="absolute inset-y-1/2 right-0 z-20 m-auto cursor-pointer text-5xl text-gray-400"
       />
 
-      <div className="absolute left-[50%] bottom-[2%] z-20 flex translate-x-[-50%] justify-center self-center p-2">
+      <div className="absolute left-[50%] bottom-[-5%] z-20 flex translate-x-[-50%] justify-center self-center p-2">
         {docJson.map((_: any, index: number) => {
           return (
             <div

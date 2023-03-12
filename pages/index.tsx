@@ -74,8 +74,8 @@ export default function Home() {
             className="m-5 max-h-[25%] min-h-[25%] min-w-[45%] max-w-[45%]"
             src={`https://i.imgur.com/BrWAabY.jpg`}
             alt={""}
-            width={482}
-            height={688}
+            width={3000}
+            height={3000}
           ></Image>
         </div>
         <h2 className="px-2 text-lg 2xl:hidden">
@@ -111,8 +111,8 @@ export default function Home() {
             className="mx-5 max-h-[25%] min-h-[25%] min-w-[42%] max-w-[42%] pt-2"
             src={`https://i.imgur.com/xJHq7Tm.jpg`}
             alt={""}
-            width={482}
-            height={688}
+            width={3000}
+            height={3000}
           ></Image>
           <h2 className="py-2 pl-1 pr-2 text-lg">
             Out of three final candidates found during the excursion to the
