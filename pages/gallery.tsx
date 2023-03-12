@@ -4,7 +4,7 @@ import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 export default function gallery() {
-  const images: any = [
+  const images: string[] = [
     "https://i.imgur.com/ZFYoKmb.jpg",
 
     "https://i.imgur.com/J0lWgLF.jpg",
@@ -33,7 +33,7 @@ export default function gallery() {
           onSwipeRight={handlePrevSlide}
           className="relative z-10 h-full w-full"
         >
-          {images.map((image, index) => {
+          {images.map((image: any, index: number) => {
             if (index === currentSlide) {
               return (
                 <Image
@@ -55,7 +55,7 @@ export default function gallery() {
       />
 
       <div className="fixed left-[50%] bottom-[2%] z-20 flex translate-x-[-50%] justify-center self-center p-2">
-        {images.map((_, index) => {
+        {images.map((_: any, index: number) => {
           return (
             <div
               className={

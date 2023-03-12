@@ -13,15 +13,8 @@ export default function Home() {
           The Life and Legacy of<br></br>John Axford Higgons (1863 - 1951)
         </h1>
         <div className="flex flex-row">
-          <Image
-            className="m-5 max-h-[25%] min-h-[25%] min-w-[45%] max-w-[45%]"
-            src={`https://i.imgur.com/mgoDxXf.jpg`}
-            alt={""}
-            width={482}
-            height={688}
-          ></Image>
           <div>
-            <h2 className="py-5 px-2 text-lg">
+            <h2 className="py-2 px-3 pt-3 text-lg">
               While the genealogy of John Axford Higgons' ancestors remains
               relatively obscure, it is known that his family originated from
               the British Isles. Immigration was present in both his paternal
@@ -32,10 +25,10 @@ export default function Home() {
                 Read Biography
               </Link>
             </h2>
-            <h1 className="text-3xl font-semibold">
+            <h1 className="ml-3 text-3xl font-semibold">
               What is the Cemetery Project?
             </h1>
-            <h2 className="py-5 px-2 text-lg">
+            <h2 className="p-3 py-2 text-lg">
               The Cemetery Project is an annual historical research project
               conducted by 11th-grade A.P. United States History (APUSH)
               students at Julia R. Masterman High School. The project aims to
@@ -49,7 +42,7 @@ export default function Home() {
               surgeons, high-ranking military officials, and university
               founders.
             </h2>
-            <h2 className="hidden px-2 text-lg 2xl:block">
+            <h2 className="hidden px-3 text-lg 2xl:block">
               The project begins at the Woodlands Cemetery in West Philadelphia,
               one of the city’s many historic sites and the final resting place
               for celebrated surgeons, high-ranking military officials, and
@@ -65,7 +58,7 @@ export default function Home() {
               on their subject.
             </h2>
             <br />
-            <h2 className="hidden px-2 text-lg 2xl:block">
+            <h2 className="hidden px-3 text-lg 2xl:block">
               Tasked with finding dozens of primary and secondary sources to
               connect the pieces of their subject’s life, students searched
               through archives, virtual repositories, libraries, and the general
@@ -77,6 +70,13 @@ export default function Home() {
               late winter.
             </h2>
           </div>
+          <Image
+            className="m-5 max-h-[25%] min-h-[25%] min-w-[45%] max-w-[45%]"
+            src={`https://i.imgur.com/BrWAabY.jpg`}
+            alt={""}
+            width={482}
+            height={688}
+          ></Image>
         </div>
         <h2 className="px-2 text-lg 2xl:hidden">
           The project begins at the Woodlands Cemetery in West Philadelphia, one
@@ -107,8 +107,14 @@ export default function Home() {
           A Reverend of Many Talents
         </h1>
         <div className="flex">
-          {" "}
-          <h2 className="py-2 px-2 text-lg">
+          <Image
+            className="mx-5 max-h-[25%] min-h-[25%] min-w-[42%] max-w-[42%] pt-2"
+            src={`https://i.imgur.com/xJHq7Tm.jpg`}
+            alt={""}
+            width={482}
+            height={688}
+          ></Image>
+          <h2 className="py-2 pl-1 pr-2 text-lg">
             Out of three final candidates found during the excursion to the
             Woodlands Cemetery, Reverend John Axford Higgons, D.D., was selected
             as the subject by this group because of the established
@@ -123,20 +129,13 @@ export default function Home() {
             commitment to his faith, morals, community, and family until his
             death in 1951.
           </h2>{" "}
-          <Image
-            className="mx-5 max-h-[25%] min-h-[25%] min-w-[42%] max-w-[42%]"
-            src={`https://i.imgur.com/xJHq7Tm.jpg`}
-            alt={""}
-            width={482}
-            height={688}
-          ></Image>
         </div>
       </div>
       <div className="w-[30%]">
         <div className="p-5">
-          <h1 className="text-3xl font-bold">Table of Contents</h1>
+          <h1 className="text-2xl font-bold">Table of Contents</h1>
           <br />
-          <ul className="text-lg">
+          <ul className="text-base">
             <li className="py-1">
               <Link className="" href="/biography">
                 1. Biography - Read an extensive biography on Higgons's life
