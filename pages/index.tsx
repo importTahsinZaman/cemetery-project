@@ -57,7 +57,7 @@ export default function Home() {
               groups are given the go-ahead to begin an in-depth investigation
               on their subject.
             </h2>
-            <br />
+
             <h2 className="hidden px-3 text-lg 2xl:block">
               Tasked with finding dozens of primary and secondary sources to
               connect the pieces of their subject’s life, students searched
