@@ -25,7 +25,7 @@ export default function Home() {
                 Read Biography
               </Link>
             </h2>
-            <h1 className="ml-3 text-3xl font-semibold">
+            <h1 className="ml-3 text-2xl font-semibold">
               What is the Cemetery Project?
             </h1>
             <h2 className="p-3 py-2 text-lg">
@@ -58,7 +58,7 @@ export default function Home() {
               on their subject.
             </h2>
 
-            <h2 className="hidden px-3 text-lg 2xl:block">
+            <h2 className="hidden px-3 pt-2 text-lg 2xl:block">
               Tasked with finding dozens of primary and secondary sources to
               connect the pieces of their subject’s life, students searched
               through archives, virtual repositories, libraries, and the general
@@ -71,7 +71,7 @@ export default function Home() {
             </h2>
           </div>
           <Image
-            className="m-5 max-h-[25%] min-h-[25%] min-w-[45%] max-w-[45%]"
+            className="min-h-[25]2%] m-5 max-h-[25%] min-w-[45%] max-w-[45%]"
             src={`https://i.imgur.com/BrWAabY.jpg`}
             alt={""}
             width={3000}

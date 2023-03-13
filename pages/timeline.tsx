@@ -4,6 +4,7 @@ export default function timeline() {
   const css = `
   .tl-slide.tl-full-image-background p, .tl-slide.tl-full-color-background p, .tl-slide.tl-full-image-background h1, .tl-slide.tl-full-color-background h1, .tl-slide.tl-full-image-background h2, .tl-slide.tl-full-color-background h2, .tl-slide.tl-full-image-background h3, .tl-slide.tl-full-color-background h3, .tl-slide.tl-full-image-background h4, .tl-slide.tl-full-color-background h4, .tl-slide.tl-full-image-background h5, .tl-slide.tl-full-color-background h5, .tl-slide.tl-full-image-background h6, .tl-slide.tl-full-color-background h6 {
     color: #162d1c !important;
+    text-shadow: none !important;
   }
   @import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap");
   
