@@ -1,3 +1,4 @@
+export default function temp() {}
 export const docJson = [
   {
     img: "https://lh6.googleusercontent.com/U7DB1v_yBibal00U0FKpWdA_IeWfyCotns8E3ENPRTREO6Fb5WXul69Xpl4CHgsRjPxefQxXZwxvg6c-NrlQQzitI50ez4_UIW8vJcyFr0SDdnCfNsiy-5IgLhl3RNEOA8nrhyAfIVC2gzqS9B7VL3Q",

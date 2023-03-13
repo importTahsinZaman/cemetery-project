@@ -86,12 +86,12 @@ export default function documents() {
 
   return (
     <div className="relative mt-5 flex h-full min-h-screen w-full flex-col items-center justify-center">
-      <h1 className="mx-3 w-[80%] border-2 border-black p-2 text-center text-4xl font-semibold">
+      <h1 className="mx-3 my-5 w-[60%] border-2 border-black p-2 text-center text-4xl font-semibold">
         The Higgons Documents
       </h1>
       <AiOutlineLeft
         onClick={handlePrevSlide}
-        className="absolute inset-y-1/2 left-0 z-20 m-auto cursor-pointer text-5xl text-gray-400"
+        className="absolute inset-y-1/2 left-[4%] z-20 m-auto cursor-pointer text-5xl text-gray-400"
       />
       <div className="relative m-auto flex min-h-screen w-full">
         <Swipe
@@ -106,7 +106,7 @@ export default function documents() {
                   className="flex flex-col items-center justify-center"
                   key={numberToEncodedLetter(index + 1)}
                 >
-                  <h1 className="text-3xl">{`{Document ${numberToEncodedLetter(
+                  <h1 className="mb-4 text-3xl">{`{Document ${numberToEncodedLetter(
                     index + 1
                   )}}`}</h1>
                   <Image
@@ -131,23 +131,26 @@ export default function documents() {
                   <br />
                   <div className="w-[80%]">
                     {content.transcription && (
-                      <h2 className="font-bold">Transcription:</h2>
+                      <h2 className="text-xl font-bold">Transcription:</h2>
                     )}
                     {content.transcription && (
                       <h2
+                        className="text-lg"
                         dangerouslySetInnerHTML={generateHTML(
                           content.transcription
                         )}
                       ></h2>
                     )}
                     <br />
-                    <h2 className="font-bold">Citation:</h2>
+                    <h2 className="text-xl font-bold">Citation:</h2>
                     <h2
+                      className="text-lg"
                       dangerouslySetInnerHTML={generateHTML(content.citation)}
                     ></h2>
                     <br />
-                    <h1 className="font-bold">Analysis:</h1>
+                    <h1 className="text-xl font-bold">Analysis:</h1>
                     <h1
+                      className="text-lg"
                       dangerouslySetInnerHTML={generateHTML(content.analysis)}
                     ></h1>
                   </div>
@@ -159,7 +162,7 @@ export default function documents() {
       </div>
       <AiOutlineRight
         onClick={handleNextSlide}
-        className="absolute inset-y-1/2 right-0 z-20 m-auto cursor-pointer text-5xl text-gray-400"
+        className="absolute inset-y-1/2 right-[4%] z-20 m-auto cursor-pointer text-5xl text-gray-400"
       />
 
       <div className="absolute left-[50%] bottom-[-5%] z-20 flex translate-x-[-50%] justify-center self-center p-2">
