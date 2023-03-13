@@ -1,7 +1,12 @@
 import Image from "next/image";
 import { useState } from "react";
 import Swipe from "react-easy-swipe";
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import {
+  AiOutlineLeft,
+  AiOutlineLeftCircle,
+  AiOutlineRight,
+  AiOutlineRightCircle,
+} from "react-icons/ai";
 import { docJson } from "./docJson";
 
 export default function documents() {
@@ -91,7 +96,7 @@ export default function documents() {
       </h1>
       <AiOutlineLeft
         onClick={handlePrevSlide}
-        className="absolute inset-y-1/2 left-[4%] z-20 m-auto cursor-pointer text-5xl text-gray-400"
+        className="absolute inset-y-1/2 left-[2%] z-20 m-auto cursor-pointer text-4xl"
       />
       <div className="relative m-auto flex min-h-screen w-full">
         <Swipe
@@ -162,7 +167,7 @@ export default function documents() {
       </div>
       <AiOutlineRight
         onClick={handleNextSlide}
-        className="absolute inset-y-1/2 right-[4%] z-20 m-auto cursor-pointer text-5xl text-gray-400"
+        className="absolute inset-y-1/2 right-[2%] z-20 m-auto cursor-pointer text-4xl"
       />
 
       <div className="absolute left-[50%] bottom-[-5%] z-20 flex translate-x-[-50%] justify-center self-center p-2">
