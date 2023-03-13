@@ -283,15 +283,79 @@ export const docJson = [
       "In the 1937 city directory for Ocean City, New Jersey, it is written that John Axford Higgons and Ella Willard Higgons owned a house in New Jersey: house 59 Asbury Avenue. It also lists LeRoy Higgons, John Axford Higgons’s son, who was also a resident of the house.<br/><br/>It is assumed that this address is the address of the Higgons’s summer home or vacation, because at the time they also had a house in Lower Merion. Because Higgons supposedly owned two houses at the time, it can be inferred that Higgons was fairly well-off.",
   },
   {
-    img: "",
-    caption: "",
-    citation: "",
-    analysis: "",
+    img: "https://lh6.googleusercontent.com/SljgImyG8-_tvfffSCWivH8wHxuuEbPZt9DzcyxAF82K7jMIIrKU7AU5b_NHAj0CzLZN88pxqNGlBrkN9RXMbuu_4X-qZdL1iwEnvkwd5xS-czFIOz3-gKxeglm1JJnm1BoWFHcdpJfty_7VbNAI8yg",
+    img2: "https://i.imgur.com/teQhHnd.png",
+    caption: "1940 Federal Census",
+    citation:
+      "Federal Census Bureau  “1940 United States Federal Census.” www.ancestry.com, 1940. https://www.ancestry.com/discoveryui-content/view/27405511:2442.",
+    analysis:
+      "This 1940 Census agrees with the 1930 and 1920 censuses regarding his address in Lower Merion, Montgomery, Pennsylvania. The census shows that John Axford Higgons was living with his wife and eldest son: Leroy Higgons of age 47. The census also shows several smaller details, such as the fact that he worked 52 weeks that year and 48 hours the previous week. He also made no income from his work as a minister, but rather earned cash from other methods. Another section of the document discusses Earl T. Higgons.<br/><br/>This document was used to make inferences about his work ethic. Even in his late 70s, John Higgons was working almost 50 hours a week. Other educated guesses regarding his character can be made from these documents. For one, John Higgons seems to be someone who puts the community first. He worked his post as a minister, but based on this document, he received no compensation from it. It is clear that his priority was the people and not himself. It can also be inferred that Earl was doing quite well for himself and had a 10 year old son.",
   },
   {
-    img: "",
-    caption: "",
-    citation: "",
-    analysis: "",
+    img: "https://lh5.googleusercontent.com/Ju8Ull2qY2OmeNun_aCFAlArIzJQPjLO91dKN-HjJ9Hut9b2_dQVS88ro-XIJgiA8WQQTFpRcbQtdtIEQU30uQ05lwisjTSCRuX5DqFuFGyegSZXPWo-OQHjmBqBsDeUyLz9Ldw6wckPp23aFJ0MLk4",
+    img2: "https://lh6.googleusercontent.com/axqCIOCw-_yDrN21YpP1xuxsv1jQlU5-dl-e4nNW3eGkjlukaUcwfim2F6k9vc0B0wtfBpiaRgmw70ARk9oEgAt_eWS9KY_sO4ctSOZH1KN8wOct1uPR7LblEh-GqibupVMMvaE0Dimw9EL4cVNJMXQ",
+    caption: "Death Certificate of Ella Willard Higgons, 1941",
+    citation:
+      "www.ancestry.com. “Death Certificate: Ella Willard Higgons,” November 5, 1941. https://search.ancestry.com/cgi-bin/sse.dll?indiv=1&dbid=5164&h=4535472&tid=&pid=&queryId=0849612bcdf83a816dd70cc6413ca19e&usePUB=true&_phsrc=klS206&_phstart=successSource&_gl=1.",
+    analysis:
+      "This is the certificate of death of Ella Willard Higgons. Ella Higgons passed away on November 5, 1941, at 11:30 in the morning at the age of 76. She died 10 years before her husband. The immediate cause of her death was “coronary occlusion”, or the partial or complete blockage of a coronary artery. It is also noted that she had another condition at the time of death, “A.S.” Ella Willard Higgons passed away in her own house, 7 Montgomery Avenue, and her husband, John Axford Higgons, was the informant listed in the certificate.<br/><br/>From this document, it can be inferred that Ella Willard Higgons passed away due to cardiac arrest. Coronary occlusion restricts blood flow to the heart, which can lead to a heart attack. In addition, it is possible that the other condition listed as “A.S.” is atherosclerosis or aortic stenosis, both of which restrict blood flow, and can lead to a heart attack. Furthermore, Ella Higgons passed away relatively quickly, within an hour, because it was certified that she was attended to from 10:30 to her time of death at 11:30. These symptoms indicate that she had cardiovascular complications, and these may have led to her untimely death.",
+  },
+  {
+    img: "https://lh5.googleusercontent.com/ikNcREC4iyaannVDPRMvX69HRT0SP8P__AEBWAUzqvNPU7c1I61l-55HgTipHqP843q7SWsnEn9T6dcihn89occI1sP3GBJW_A7-_bZGNhM-CaD55sWZaIJ7OwufuNmzSWk3s1AWtvlKnQwMMVxTsWA",
+    caption: "World War 2 Registration Card for John Axford Higgons Junior",
+    citation:
+      "U.S. Military “WW2 Registration: John Axford Higgons Jr.” www.ancestry.com. Accessed February 21, 2023. https://www.ancestry.com/discoveryui-content/view/304303210:2238?tid=&pid=&queryId=db18d3c5249318cc8565ad8bc7c4fbf6&_phsrc=klS208&_phstart=successSource.",
+    analysis:
+      "This document is a World War Two Draft Registration Card for John Axford Higgons Junior. John Axford Higgons Jr. was 43 at the time of registration, and lived at 4 Beach Avenue, Larchmont, Westchester, New York, and he was married to Elizabeth L. Higgons when he registered for the World War II draft. It is also written that he is self-employed, and the location of his company is 66 Beaver Street, New York, New York. <br/><br/>John Axford Higgons Jr. was 43 years old at the time of registration, so it can be inferred that despite his relatively old age, he was in good health and was willing to serve in the war. Higgons Jr. was most likely patriotic, because he voluntarily filled out the registration card, as only people from ages 21 to 35 were required to register with their local draft board. Based on Higgons Jr.’s age at the time, it can be inferred that this card was filled out around 1941.",
+  },
+  {
+    img: "https://lh4.googleusercontent.com/e23XsCsiuid-ty7jOzE9uLxxI-cYF5l0q_Hhum1ba04GLs2eqIZGx1s2yT8SzdzMin2O5mVjWZRnNr-Rd8tlJRw79COip4i9TxVXJ_3qZnn-PRZoqcpEUyYnOTcS2Rfy1VYiFn-YBO1wRJRKnj_7xbE",
+    caption: "World War 2 Registration Card for John Axford Higgons III",
+    citation:
+      "U.S. Military “WW2 Registration: John Axford Higgons III.” www.ancestry.com, 1941. https://www.ancestry.com/discoveryui-content/view/304303211:2238?tid=&pid=&queryId=db18d3c5249318cc8565ad8bc7c4fbf6&_phsrc=klS224&_phstart=successSource.",
+    analysis:
+      "This document is the World War Two Draft Registration Card for John Axford Higgons III. At the time of registration, he was 21 years old and was living at 4 Beach Avenue, Larchmont, Westchester, New York, with his parents. He was a student at Princeton University at the time. <br/><br/>It can be inferred that the registration card was filled out in 1941, around the same time John Axford Higgons Jr. filled out his card because the father and son lived in the same house. Also, it is inferred that John Axford Higgons Jr. was required to fill out this form because he was a student at this time, and most likely would have continued his studies if not for the draft registration. In addition, by October 1940, all men between the ages of 21 and 35 were required to register to be drafted, which corroborates the inference.",
+  },
+  {
+    img: "https://lh6.googleusercontent.com/eBH_kf7DH0XRJ3w1vLrSrFUp0TpOd1yDTlzFBWhzczNG1rjcfLR580ji7HDD6VL49hnRsY0p7ADAPK2RFz-dXpQABiUY8qkC6SycioH0SmaiHJi2zHP9KBOkarUwN1MBTIroVEf-YjGzrgVVjimAFJk",
+    caption: "Alumni of Union Theological Seminary, Page 90, 1947",
+    citation:
+      "Union Theological Seminary. “Columbia University Libraries: Alumni Catalogue 1836-1947.” www.columbia.edu, 1947. http://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_5949068_000/pages/ldpd_5949068_000_00000138.html.",
+    analysis:
+      "This document is a page from the book Alumni of Union Theological Seminary. It provides a brief history of Higgons, starting from when he was born and going up until he retired in 1925. The blurb states that he earned a diploma from the Union Theological Seminary in 1895, and was ordained on July 16, 1897. He became a pastor in Ocean City from 1897 to 1898, and then moved to Newark and worked as a pastor until 1900. From 1902 to 1904, Higgons was not a pastor, but an evangelist. Afterward, he continued working as a pastor in Massachusetts up until 1909. In 1910, Higgons became pastor at the Ninth Presbyterian Church in Philadelphia, and he continued to work around the area until 1925 when he retired to Bala Cynwyd.<br/><br/>There is a separation between the years 1891 to 1894: “91-92, 93-95,” so it can be inferred that there was some event that caused Higgons to briefly leave the Union Theological Seminary. There is no confirmation that Higgons attended the Union Theological Seminary from 1892 to 1893, so it can be inferred that Higgons took a gap year, which could coincide with his marriage and the birth of his first child in 1892.",
+  },
+  {
+    img: "https://lh5.googleusercontent.com/-nMyJW4IBtnL_UgyUYHffpqBnARossl2blai8FjWKQV6SnCCrFutyMSp1vTo1ptsgTFFBIwbOp6oU7huHnrsMaYnYWBWqHJy9bg7rsj5RV5lpvABKfwqknlvZpiiiQfzEZjUWIcg62RPYBQedXccqyc",
+    img2: "https://lh3.googleusercontent.com/N-qK4KGawK9aJwRwuE7a1e_CLFgdV5c3ACUfs2MBvcjD0HYgBNlWgMEV3mQ9WUtTB3S_Y75aOHVcjbwBZrFyBRe0l03O32CiZJ56YYRhGn0NayaJRPPsItvYwaXfOdGuAwC-RvgCW2zeAwZdLuYdyBs",
+    caption: "Pennsylvania Death Certificate for John Axford Higgons",
+    citation:
+      "www.ancestry.com. “Death Certificate: John Axford Higgons,” September 1, 1951. https://search.ancestry.com/cgi-bin/sse.dll?_phsrc=klS225&_phstart=successSource&usePUBJs=true&indiv=1&dbid=5164&gsfn=John%20Axford&gsln=Higgons&gsfn_x=NN&gsln_x=NN&new=1&rank=1&uidh=6h2&redir=false&msT=1&gss=angs-d&pcat=34&fh=0&h=5633542&recoff=&ml_rpos=1&queryId=3ffcb7386534da09e1dacacca1b467e4&_gl=1*1bge52f*_ga*MTk5MDUyMzQ2NS4xNjc2NTEzNDIw*_ga_4QT8FMEX30*MTY3Njk0NDAzMC44LjEuMTY3Njk2MjU4My4wLjAuMA..*_ga_B2YGR3SSMB*MDA1YmZhZGYtY2JlMS00YzY1LWJjZDQtNDMyZmZkMDM2OGM4LjcuMS4xNjc2OTYyNTgzLjAuMC4w.",
+    analysis:
+      "This document is the death certificate for John Axford Higgons. Higgons died on September 1st, 1951, at the age of 88. His leading cause of death was “Cancer of the Bowel”, more commonly known as colon cancer. He died in the comfort of his own home, as shown by his institution of death being “residence”, and no autopsy was conducted. He was a widow (his wife died about 10 years earlier) and the informant was his living daughter: Gladys Higgons. <br/><br/>From this document, we can infer that the symptoms of his cancer began around March 1951 because the doctor says that he attended to the deceased from March 23rd till his death. Higgons had lived a life of hard work, but he likely recently retired as the 1940 census has him employed as a clergyman, but his death certificate has him retired.",
+  },
+  {
+    img: "https://lh4.googleusercontent.com/YfH8yNL3uEtHn-2m7RLyrlAOo7nLNtgUZ3Y2mOcstdp186HbiS0ZOPOLlxBChh85I4cdYbonoVyu5MxZqvshOWqhJMkhUtXHJGAqTUrkNg8PEruPLWC2nyFw2GjEBOpCgzq9gmdwtP2H_UzcelxC1sg",
+    caption: "Volume 7 Union Quarterly Review, Number 2, January 19, 1952",
+    citation:
+      "Union Seminary Quarterly Review, vol. 8 (Union Theological Seminary, 1952). pg 43.",
+    analysis:
+      "This document is Volume 7 of the Union Quarterly Review, Number 2. The publication of this document is January 19, 1952. The highlighted portion of the document provides information on both John Axford Higgons’s retirement and death. He retired from the Ninth Presbyterian Church (pastor) in Philadelphia in 1925 and passed away on September 2, but other documents have his death on September 1, 1951. It also gives a quick rundown on the other places Higgons had preached at.<br/><br/>This document provides a brief synopsis of all the locations at which John Axford Higgons preached, as well as when he retired from being a pastor. In addition, it marks his suburban home, where he most likely spent much of his time post-retirement, at Bala-Cynwyd.",
+  },
+  {
+    img: "https://lh6.googleusercontent.com/G8SrgWDYn9rvsYYZtAt7pozWwBmkgWtNpWwu6EkL0w1-gaAEpbHR-8DRxM2HtGN2zIpcru-Bl0HUvx5ACS1p0St1fCufZ4TjFrNbjTY_qz343YM8E5hn0-jhvZFI6uzgEBx0-rp1RzcYPwricIJ8fVM",
+    img2: "https://lh6.googleusercontent.com/GHu6WYMiznlO0p355wEjzREhK5AvhgcYHKpMNIRPNLi6dVMZSDe6HfhJPbOic0Ks8aaaHTq91Fa2hv4px9etRx6xwXviDdf4uk6T06WIzUhWZMqdptoKW7oS-qhqy0a9mRpb6hRAcdt8p9NC0JOn92A",
+    caption: "World who's who in commerce and industry 1963",
+    citation:
+      "Institute for Research in Biography. World Who’s Who in Commerce and Industry. Internet Archive. 13th ed. Chicago,: Marquis - Who’s Who, 1963. https://archive.org/details/worldwhoswhoinco00inst/.",
+    analysis:
+      "The document is another excerpt from 1963. Although it is after John Axford Higgons passed away, the source talks about his son. It states that John Axford Higgons Jr. was a sugar broker in Ocean City, New Jersey as of June 20, 1898. Overall the document speaks about both John Axford Higgons Jr. and John Axford Higgons III. In addition, it states that Higgons Jr. was a student of the University of Pennsylvania from 1917-1918. It provides his wife’s name, Mary Ponsart, who he married on February 27, 1958, and his children from his previous marriage: John Axford Higgons III and Robert Hunter Higgons.<br/><br/>This document provides some insight on John Axford Higgons’s son and grandson. Higgons Jr. was a sugar broker, and was associated with many other sugar and coffee companies. Also, this document states that Higgons Jr. remarried in 1958, indicating that his past wife passed away or divorced him. ",
+  },
+  {
+    img: "https://lh4.googleusercontent.com/BKW8_KfKJJK7BoWukaLa84ipyW3cobGMMNEePwu_aNHc_uDNM4y6Z6hrmenDRd6VLkZFYZIge2r4CSr1Y4StoMXNeGlUNEXlbUkMZE45vD4-kIO76AYHdPFQRWPIlAHmcuPQv6aicmXsNgXhExHU1tE",
+    caption: "Step-by-Step Knitting, page 61, 1967",
+    citation:
+      "Phillips, Mary Walker. Step-By-Step Knitting; a Complete Introduction to the Craft of Knitting, Including Photos. In Full Color. Internet Archive. New York, Golden Press, 1967. https://archive.org/details/stepbystepknitti00phil.",
+    analysis:
+      "This document is a page from a book called Step-by-Step Knitting from 1967. Although the purpose of this book is to detail the process of knitting, one of the examples used in the book is a piece that Mrs. John Axford Higgons made for her son who had been drafted to fight in World War I. <br/><br/>From this document, it was assumed that John Axford Higgons Jr. was drafted to fight in World War I, as he was one of the two sons who was registered for the draft, and he was physically able to serve the country. ",
   },
 ];

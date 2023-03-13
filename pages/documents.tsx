@@ -5,7 +5,7 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { docJson } from "./docJson";
 
 export default function documents() {
-  const [currentSlide, setCurrentSlide] = useState(docJson.length - 2);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const handleNextSlide = () => {
     let newSlide = currentSlide === docJson.length - 1 ? 0 : currentSlide + 1;
