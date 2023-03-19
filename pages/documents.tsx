@@ -91,7 +91,7 @@ export default function documents() {
 
   return (
     <div className="relative mt-5 flex h-full min-h-screen w-full flex-col items-center justify-center">
-      <h1 className="mx-3 my-5 w-[60%] border-2 border-black p-2 text-center text-4xl font-semibold">
+      <h1 className="mx-3 mb-3 w-[100%] border-2 border-black p-2 text-center text-4xl font-semibold">
         The Higgons Documents
       </h1>
       <AiOutlineLeft
