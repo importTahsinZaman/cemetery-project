@@ -23,3 +23,8 @@
 body {
   background-color: #f4f3ea;
 }
+
+.navbar.navbar-fixed-top.navbar-flex {
+  display: none !important;
+  visibility: hidden !important;
+}

@@ -161,8 +161,9 @@ export default function Home() {
           </ul>
         </div>
         <h2 className="text-md border-t-2 border-b-2 border-r-2 border-black py-5 px-4">
-          This project was completed by Larry Huang, Aakash Jha, Tino
-          Karakousis, Justin Liu, Aryan Patel, Tahsin Zaman
+          This project was completed by Larry Huang (4), Aakash Jha (4), Tino
+          Karakousis (4), Justin Liu (4), Aryan Patel (4), Tahsin Zaman (4) in
+          2023
         </h2>
       </div>
     </div>

@@ -11,6 +11,21 @@ export default function timeline() {
   * {
     font-family: "Newsreader", serif;
   }
+
+  .tl-slide-content-container{
+    overflow: hidden !important;
+  }
+  .tl-slidenav-icon {
+  color: #162d1c !important;
+  }
+
+  .tl-slidenav-title{
+    color: #162d1c !important;
+    }
+    .tl-slidenav-description{
+    color: #162d1c !important;
+
+    }
 `;
 
   return (
