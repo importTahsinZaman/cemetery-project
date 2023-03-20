@@ -28,7 +28,8 @@ module.exports = {
         },
       },
       animation: {
-        slide_out: "slide_out 1.4s ease-out",
+        slide_out: "slide_out 1.3s ease-out",
+        slide_out_slow: "slide_out 1.31s ease-out",
       },
     },
   },

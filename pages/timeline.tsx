@@ -30,7 +30,7 @@ export default function timeline() {
 `;
 
   return (
-    <div className="flex h-screen w-[100%]" id="timeline-embed">
+    <div className="flex h-screen w-[100%]">
       <PageTransition></PageTransition>
       <Head>
         <link
