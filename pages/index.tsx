@@ -2,12 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import Link from "next/link";
+import PageTransition from "@/components/PageTransition";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className="my-8 flex">
+      <PageTransition></PageTransition>
       <div className="w-[70%] border-r-[2.5px] border-dashed border-black">
         <h1 className="mx-3 border-2 border-black p-2 text-center text-4xl font-semibold">
           The Life and Legacy of<br></br>John Axford Higgons (1863 - 1951)

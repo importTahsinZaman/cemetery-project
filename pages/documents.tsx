@@ -1,3 +1,4 @@
+import PageTransition from "@/components/PageTransition";
 import Image from "next/image";
 import { useState } from "react";
 import Swipe from "react-easy-swipe";
@@ -91,6 +92,7 @@ export default function documents() {
 
   return (
     <div className="relative mt-5 flex h-full min-h-screen w-full flex-col items-center justify-center">
+      <PageTransition></PageTransition>
       <h1 className="mx-3 mb-3 w-[100%] border-2 border-black p-2 text-center text-4xl font-semibold">
         The Higgons Documents
       </h1>

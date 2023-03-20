@@ -24,7 +24,7 @@ body {
   background-color: #f4f3ea;
 }
 
-.navbar.navbar-fixed-top.navbar-flex {
+.navbar-fixed-top {
   display: none !important;
   visibility: hidden !important;
 }

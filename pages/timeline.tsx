@@ -1,4 +1,5 @@
 import Head from "next/head";
+import PageTransition from "@/components/PageTransition";
 
 export default function timeline() {
   const css = `
@@ -30,6 +31,7 @@ export default function timeline() {
 
   return (
     <div className="flex h-screen w-[100%]" id="timeline-embed">
+      <PageTransition></PageTransition>
       <Head>
         <link
           title="timeline-styles"

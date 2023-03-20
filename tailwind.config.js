@@ -19,8 +19,22 @@ module.exports = {
       fontFamily: {
         AncientFont: ["AncientFont", "sans-serif"],
       },
+      keyframes: {
+        slide_out: {
+          "0%": { transform: "translateX(-100%)" },
+          "1%": { transform: "translateX(-99%)" },
+          "50%": { transform: "translateX(-99%)" },
+          "100%": { transform: "translateX(100%)" },
+        },
+      },
+      animation: {
+        slide_out: "slide_out 1.4s ease-out",
+      },
     },
   },
   important: true,
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animate"),
+    // ...
+  ],
 };

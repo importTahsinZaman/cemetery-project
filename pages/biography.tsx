@@ -1,6 +1,10 @@
+import PageTransition from "@/components/PageTransition";
 import Head from "next/head";
+import { useRef } from "react";
 
 export default function biography() {
+  const iFrame = useRef(null);
+
   const css = `
   .navbar-fixed-top{
     display: none !important;
@@ -9,12 +13,16 @@ export default function biography() {
   `;
   return (
     <>
-      <Head>
-        <style>{css}</style>
-      </Head>
+      <PageTransition></PageTransition>
+      {iFrame && (
+        <Head>
+          <style>{css}</style>
+        </Head>
+      )}
       <iframe
-        className="h-[100vh] w-[100] "
-        src="https://www.docdroid.net/CJphxrk/higgonsbiography-pdf"
+        className="h-[100vh] w-[100]"
+        ref={iFrame}
+        src="https://www.docdroid.net/lS1h3L0/johnahiggonsbio-pdf"
         width="100%"
         height="100%"
       ></iframe>

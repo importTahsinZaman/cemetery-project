@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { galleryData } from "./galleryData";
+import PageTransition from "@/components/PageTransition";
 
 export default function gallery() {
   return (
     <>
+      <PageTransition></PageTransition>
       <h1 className="mx-3 my-5 border-2 border-black p-2 text-center text-4xl font-semibold">
         Life in Philadelphia
       </h1>
