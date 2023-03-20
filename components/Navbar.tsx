@@ -67,7 +67,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-        <div className="text-l2 bg-[#d48265] py-2 text-[#fffaf4]">
+        <div className="text-l2 bg-black py-2 text-[#fffaf4]">
           <div
             className={`mt-8 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
               navbar ? "block" : "hidden"
