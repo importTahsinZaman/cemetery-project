@@ -9,16 +9,17 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="my-3 flex h-20 flex-col items-center justify-center text-center ">
+      <div className="my-8 flex h-20 flex-col items-center justify-center text-center text-black">
         <h1 className="text-5xl font-bold">
-          APUSH STUDENTS COMPLETE CEMETERY PROJECT
+          APUSH STUDENTS COMPLETE CEMETERY PROJECT <br></br> -- READ THEIR WORK
+          BELOW --
         </h1>
         <hr className="mt-2 w-[70%] border-[1.5] border-black"></hr>
       </div>
       <div className="my-2 flex">
         <PageTransition></PageTransition>
         <div className="w-[70%] border-r-[2.5px] border-dashed border-black">
-          <h1 className="mx-3 border-2 border-black p-2 text-center text-4xl font-semibold">
+          <h1 className="mx-3 border-2 border-black p-2 text-center text-4xl font-semibold text-black">
             The Life and Legacy of<br></br>John Axford Higgons (1863 - 1951)
           </h1>
           <div className="flex flex-row">
@@ -170,7 +171,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <h2 className="text-md border-t-2 border-b-2 border-r-2 border-black py-5 px-4">
+          <h2 className="text-md border-t-2 border-b-2 border-r-2 border-[#162d1c] py-5 px-4">
             This project was completed by Larry Huang (2), Aakash Jha (2), Tino
             Karakousis (2), Justin Liu (2), Aryan Patel (2), Tahsin Zaman (2) in
             2023

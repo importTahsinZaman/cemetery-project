@@ -8,7 +8,7 @@ import Head from "next/head";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="px-10 py-6">
+      <div className="mx-2 my-2 border-2 border-black px-8 py-4">
         <Head>
           <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
         </Head>

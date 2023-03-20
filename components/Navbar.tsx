@@ -21,14 +21,14 @@ export default function Navbar() {
               </a>
               <p className="text-lg"> Price: $0.99</p>
             </div>
-            <hr className="grow border-black bg-black"></hr>
+            <hr className="grow border-[#162d1c] bg-[#162d1c]"></hr>
 
             <div className="flex w-full">
               <hr className="grow"></hr>
               <h2 className="text-xl">Philadelphia, {date.toDateString()}</h2>
               <hr className="grow "></hr>
             </div>
-            <hr className="grow border-black bg-black"></hr>
+            <hr className="grow border-[#162d1c] bg-[#162d1c]"></hr>
           </div>
           <div className="md:hidden">
             <button
