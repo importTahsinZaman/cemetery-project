@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="z-50 w-full bg-primary_bg text-black">
       <div className="mx-auto w-full flex-col justify-between md:flex">
         <div className="flex w-full items-center justify-between md:block">
-          <div className=" w-full items-center justify-between p-2 text-center">
+          <div className=" w-full items-center justify-between py-2 text-center">
             <div className="flex w-full flex-row items-center justify-between">
               <p className="text-lg">Vol. 218 - N.48</p>
               <a href="/">
@@ -28,7 +28,8 @@ export default function Navbar() {
               <h2 className="text-xl">Philadelphia, {date.toDateString()}</h2>
               <hr className="grow "></hr>
             </div>
-            <hr className="grow border-[#162d1c] bg-[#162d1c]"></hr>
+
+            <hr className="w-full grow border-[#162d1c] bg-[#162d1c]"></hr>
           </div>
           <div className="md:hidden">
             <button

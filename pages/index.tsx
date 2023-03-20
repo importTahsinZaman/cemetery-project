@@ -113,12 +113,12 @@ export default function Home() {
             which the subject lived, a biography, and summaries of evidence
             gathered through research. The project is submitted in late winter.
           </h2>
-          <h1 className="px-2 pt-2 text-3xl font-semibold">
+          <h1 className=" pt-2 text-3xl font-semibold">
             A Reverend of Many Talents
           </h1>
           <div className="flex">
             <Image
-              className="mx-5 max-h-[25%] min-h-[25%] min-w-[42%] max-w-[42%] pt-2"
+              className=" max-h-[25%] min-h-[25%] min-w-[42%] max-w-[42%] pt-2"
               src={`https://i.imgur.com/xJHq7Tm.jpg`}
               alt={""}
               width={3000}
@@ -138,7 +138,7 @@ export default function Home() {
               Jersey, and Massachusetts. Yet, through it all, he maintained an
               unwavering commitment to his faith, morals, community, and family
               until his death in 1951.
-            </h2>{" "}
+            </h2>
           </div>
         </div>
         <div className="w-[30%]">

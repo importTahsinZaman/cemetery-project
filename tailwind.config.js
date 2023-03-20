@@ -22,14 +22,13 @@ module.exports = {
       keyframes: {
         slide_out: {
           "0%": { transform: "translateX(-100%)" },
-          "1%": { transform: "translateX(-99%)" },
-          "50%": { transform: "translateX(-99%)" },
+          "50%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(100%)" },
         },
       },
       animation: {
-        slide_out: "slide_out 1.3s ease-out",
-        slide_out_slow: "slide_out 1.31s ease-out",
+        slide_out: "slide_out 1.3s ease-in-out",
+        slide_out_slow: "slide_out 1.31s ease-in-out",
       },
     },
   },
