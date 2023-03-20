@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="my-8 flex h-20 flex-col items-center justify-center text-center text-black">
         <h1 className="text-5xl font-bold">
-          APUSH STUDENTS COMPLETE CEMETERY PROJECT <br></br> -- READ THEIR WORK
+          APUSH STUDENTS COMPLETE CEMETERY PROJECT <br></br> -- READ RESEARCH
           BELOW --
         </h1>
         <hr className="mt-2 w-[70%] border-[1.5] border-black"></hr>

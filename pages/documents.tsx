@@ -172,7 +172,7 @@ export default function documents() {
         className="absolute inset-y-1/2 right-[2%] z-20 m-auto cursor-pointer text-4xl"
       />
 
-      <div className="absolute left-[50%] bottom-[-5%] z-20 flex translate-x-[-50%] justify-center self-center p-2">
+      <div className=" left-[50%] bottom-[-5%] z-20 flex justify-center self-center p-2">
         {docJson.map((_: any, index: number) => {
           return (
             <div

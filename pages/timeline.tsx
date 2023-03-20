@@ -45,7 +45,10 @@ export default function timeline() {
         <style>{css}</style>
       </Head>
 
-      <div id="timeline-embed" className="h-screen w-screen"></div>
+      <div
+        id="timeline-embed"
+        className="h-screen w-screen bg-primary_bg"
+      ></div>
     </div>
   );
 }
