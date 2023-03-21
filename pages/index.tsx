@@ -81,14 +81,14 @@ export default function Home() {
               </h2>
             </div>
             <Image
-              className="min-h-[25]2%] m-5 max-h-[25%] min-w-[45%] max-w-[45%]"
+              className="min-h-[25]2%] mx-3 my-4 max-h-[25%] min-w-[45%] max-w-[45%]"
               src={`https://i.imgur.com/BrWAabY.jpg`}
               alt={""}
               width={3000}
               height={3000}
             ></Image>
           </div>
-          <h2 className="px-2 text-lg 2xl:hidden">
+          <h2 className="mx-3 text-lg 2xl:hidden">
             The project begins at the Woodlands Cemetery in West Philadelphia,
             one of the city’s many historic sites and the final resting place
             for celebrated surgeons, high-ranking military officials, and
@@ -103,7 +103,7 @@ export default function Home() {
             go-ahead to begin an in-depth investigation on their subject.
           </h2>
 
-          <h2 className="px-2 pt-2 text-lg 2xl:hidden">
+          <h2 className="mx-3 pt-2 text-lg 2xl:hidden">
             Tasked with finding dozens of primary and secondary sources to
             connect the pieces of their subject’s life, students searched
             through archives, virtual repositories, libraries, and the general
@@ -113,12 +113,12 @@ export default function Home() {
             which the subject lived, a biography, and summaries of evidence
             gathered through research. The project is submitted in late winter.
           </h2>
-          <h1 className=" pt-2 text-3xl font-semibold">
+          <h1 className=" mx-3 pt-2 text-3xl font-semibold">
             A Reverend of Many Talents
           </h1>
           <div className="flex">
             <Image
-              className=" max-h-[25%] min-h-[25%] min-w-[42%] max-w-[42%] pt-2"
+              className="mx-3 max-h-[25%] min-h-[25%] min-w-[42%] max-w-[42%] pt-2"
               src={`https://i.imgur.com/xJHq7Tm.jpg`}
               alt={""}
               width={3000}
@@ -141,11 +141,30 @@ export default function Home() {
             </h2>
           </div>
         </div>
-        <div className="w-[30%]">
-          <div className="p-5">
+        <div className="w-[30%] ">
+          <div className="mx-5">
+            <h1 className="text-2xl font-bold">The Woodlands Cemetery</h1>
+            <h2 className="mx-1">
+              The Woodlands Cemetery, where students went to choose their
+              subjects, is a 54-acre landscape in West Philadelphia and is home
+              to thousands of buried. It holds the rich histories of every
+              person whose gravestone sits on its vast expanse and is a place to
+              mourn and remember for many. The Woodlands was designated a
+              National Historic Landmark District in recognition of its unique
+              history and rich resources.
+            </h2>
+
+            <Image
+              className="mx-1 mt-3 max-h-[100%] min-h-[100%] min-w-[100%] max-w-[100%]"
+              src={`https://i.imgur.com/J0lWgLF.jpg`}
+              alt={""}
+              width={3000}
+              height={3000}
+            ></Image>
+          </div>
+          <div className="p-5 ">
             <h1 className="text-2xl font-bold">Table of Contents</h1>
-            <br />
-            <ul className="text-base">
+            <ul className="mx-1 text-base">
               <li className="py-1">
                 <Link className="" href="/biography">
                   1. Biography - Read an extensive biography on Higgons's life
@@ -171,7 +190,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <h2 className="text-md border-t-2 border-b-2 border-r-2 border-[#162d1c] py-5 px-4">
+          <h2 className="text-md  border-[#162d1c] py-5 px-4">
             This project was completed by Larry Huang (2), Aakash Jha (2), Tino
             Karakousis (2), Justin Liu (2), Aryan Patel (2), Tahsin Zaman (2) in
             2023
